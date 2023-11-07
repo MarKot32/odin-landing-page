@@ -175,7 +175,32 @@ a:hover {
   margin-top: 1rem;
 }
 
-footer {
+.call-to-action {
   display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 5rem;
+}
+
+.callto-action-ctnr {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #3882f6;
+  width: 50%;
+  height: 100px;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.callto-action-text {
+  align-self: flex-start;
+}
+
+.footer-signup-btn {
+  position: relative;
+  bottom: 1.5rem;
+  margin-right: 1rem;
+  align-self: flex-end;
 }
