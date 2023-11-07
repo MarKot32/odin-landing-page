@@ -195,12 +195,38 @@ a:hover {
 }
 
 .callto-action-text {
-  align-self: flex-start;
+  margin-top: 1.5rem;
+  margin-left: 5rem;
+  color: #f9faf8;
 }
 
-.footer-signup-btn {
+.callto-action-text > p:first-of-type {
+  margin-bottom: 1px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.callto-action-text > p:nth-of-type(2) {
+  font-weight: lighter;
+}
+
+.action-signup-btn {
   position: relative;
-  bottom: 1.5rem;
-  margin-right: 1rem;
+  bottom: 2rem;
+  margin-right: 5rem;
   align-self: flex-end;
+  border: 2px solid #f9faf8;
+  background-color: #3882f6;
+  color: #f9faf8;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.action-signup-btn:hover {
+  cursor: pointer;
+  width: 155px;
+  height: 55px;
+
+  box-shadow: 10px 10px 5px #2f6bca;
 }
