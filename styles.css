@@ -64,7 +64,7 @@ main {
   margin-top: 0.3rem;
 }
 
-.hero-container button {
+.hero-container > button {
   width: 6rem;
   height: 2rem;
   background-color: #3882f6;
@@ -76,7 +76,7 @@ main {
   margin-top: 1rem;
 }
 
-.hero-container button:hover {
+.hero-container > button:hover {
   text-decoration: underline;
   cursor: pointer;
   width: 6.1rem;
@@ -142,4 +142,33 @@ a:hover {
 .info-text {
   width: 50%;
   text-align: center;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+  margin-top: 3rem;
+  padding: 5rem;
+}
+
+.quote {
+  /* padding: 5rem; */
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  width: 50%;
+  text-align: start;
+}
+
+.quote-author {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: rem;
+  align-self: center;
+  margin-top: 1rem;
 }
