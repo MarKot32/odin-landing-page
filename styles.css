@@ -230,3 +230,12 @@ a:hover {
 
   box-shadow: 10px 10px 5px #2f6bca;
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 1rem;
+}
